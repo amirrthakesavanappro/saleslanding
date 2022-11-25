@@ -135,17 +135,20 @@
 
 /* -----------Css-variable------ */
 
+/* AL & YL logo colors: #5c6ce4 #d36c95 #3c64e4 #5c6ce4 */
+
 :root {
     --light-purple: #F6F4FE;
-    --purple: #344cdc;
-    --bg-purple: #344cdc;
-    --dark-purple: #32236F;
-    --body-text-purple: #3E3F66;
+    --purple: #3c64e4;
+    --bg-purple: #d36c95;
+    --dark-purple:#345cc8;
+    --body-text-purple: #345cc8;
     --text-white: #ffffff;
     --bg-white: #ffffff;
     --slider-dots-color: #D4D2DD;
     --light-bg: #DFDAF3;
 }
+
 
 
 
@@ -2003,7 +2006,7 @@ footer .app_btn li:last-child {
 }
 
 footer .bottom_footer {
-    background-color: var(--bg-purple);
+    background-color: var(--purple);
 }
 
 /* footer heading and text colors variable */
